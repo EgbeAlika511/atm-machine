@@ -1,0 +1,96 @@
+body {
+  overflow: hidden;
+}
+
+h1.heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+section.atm-card {
+  margin-top: 3rem;
+}
+
+div.register-form {
+  background-color: #e7e3e3;
+  -webkit-box-shadow: 2px 3px 4px #616060;
+          box-shadow: 2px 3px 4px #616060;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem auto;
+}
+
+form input {
+  background-color: #c0bdbd;
+  margin-top: 1rem;
+  padding: .5rem;
+  color: #111;
+  border-radius: 20px;
+}
+
+form.register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem auto;
+  width: 70%;
+}
+
+form.register-form input {
+  margin-top: 1rem;
+  padding: .5rem;
+  color: #111;
+  border-radius: 20px;
+}
+
+form.deposit-form, form.withdraw-form {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+button.creatAccount {
+  background-color: #03848d;
+  -webkit-box-shadow: 2px 2px 3px #097e92;
+          box-shadow: 2px 2px 3px #097e92;
+}
+
+div.close {
+  float: right;
+  border-radius: 50%;
+  padding: .5rem 1rem;
+}
+
+div.close span {
+  color: #474646;
+}
+
+div.close:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  cursor: pointer;
+  background-color: #c0bfbf;
+}
+
+main.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(10, 10, 10, 0.623);
+  z-index: 1;
+  visibility: hidden;
+}
+/*# sourceMappingURL=styles.css.map */

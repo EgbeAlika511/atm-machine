@@ -1,0 +1,78 @@
+body{
+    overflow: hidden;
+}
+
+h1.heading{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+section.atm-card{
+    margin-top: 3rem;
+
+}
+div.register-form{
+    background-color: rgb(231, 227, 227);
+    box-shadow: 2px 3px 4px rgb(97, 96, 96);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    
+    input{
+        background-color: rgb(192, 189, 189);
+        margin-top: 1rem;
+        padding: .5rem;
+        color: #111;
+        border-radius: 20px;
+    }
+}
+form.register-form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 70%;
+    
+    input{
+        // background-color: rgb(148, 74, 74);
+        margin-top: 1rem;
+        padding: .5rem;
+        color: #111;
+        border-radius: 20px;
+    }
+}
+form.deposit-form, form.withdraw-form{
+    background-color: #fff;
+    padding: 2rem;
+    
+}
+
+button.creatAccount{
+    background-color: rgb(3, 132, 141);
+    box-shadow: 2px 2px 3px rgb(9, 126, 146);
+}
+div.close{
+    float: right;
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    span{
+        color: rgb(71, 70, 70);
+    }
+
+    &:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+        background-color: rgb(192, 191, 191);
+    }
+}
+
+main.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(10, 10, 10, 0.623);
+    z-index: 1;
+    visibility: hidden;
+}
